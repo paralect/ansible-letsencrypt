@@ -15,6 +15,13 @@
 
 The ansible role for generating [letsecrypt](https://letsencrypt.org/) certificates.
 
+## Features
+
+* 🔐 Ability to generate single certificates for specific domains/subdomains
+* 🔐 Ability to generate wildcard certificates using settings for the corresponding DNS provider
+* ⚡️️ Automatically renew certificates every month
+* 🔧 Generated certificates stored in the directory `/etc/letsencrypt/live/{{app_domain}}` where `app_domain` is the name of domain/subdomain for which we generated certificates and ready for use with any HTTP-server
+
 ## Role Variables
 
 Available variables:
