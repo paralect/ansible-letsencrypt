@@ -1,0 +1,22 @@
+{
+  "name": "ansible-letsencrypt",
+  "version": "0.1.0",
+  "description": "The ansible role for generating letsencrypt certificates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paralect/ansible-letsencrypt.git"
+  },
+  "author": "Paralect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paralect/ansible-letsencrypt/issues"
+  },
+  "scripts": {
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  },
+  "homepage": "https://github.com/paralect/ansible-letsencrypt#readme",
+  "devDependencies": {
+    "all-contributors-cli": "5.4.0"
+  }
+}
